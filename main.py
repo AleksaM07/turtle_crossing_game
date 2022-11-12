@@ -45,7 +45,7 @@ while game_is_on:
 
     #deceting collision with the cars
     for car in cars:
-        if player.distance(car) < 25:
+        if player.distance(car) < 24:
             scorebored.game_over()
             game_is_on = False
 
